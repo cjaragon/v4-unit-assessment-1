@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+const gitDefinition = 'a version-control system for tracking changes on files'
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +18,7 @@
 */
 
 //CODE HERE
+const gitHubDefinition = 'is a host for git repositories as well as a platform to share code'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -34,6 +35,10 @@
 */
 
 //CODE HERE
+const init = {
+    description: 'a way to tell git to start a repository for that current project',
+    code: 'git init .'
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,6 +47,10 @@
 */
 
 //CODE HERE
+const clone = {
+    description: 'the command to tell git to make a copy of a project, pulled from github',
+    code: 'git clone "url"'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +59,10 @@
 */
 
 //CODE HERE
+const status = {
+    description: 'terminal command to see whether the current repository was sent to gitHub',
+    code: 'git status'
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +71,10 @@
 */
 
 //CODE HERE
+const add = {
+    description: "command for 'staging' all progress made in your current session to be committed",
+    code: 'git add .'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,6 +83,10 @@
 */
 
 //CODE HERE
+const commit = {
+    description: 'command used to save work to the repository',
+    code: 'git commit -m "made changes to make Aundrew happy"'
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -74,6 +95,10 @@
 */
 
 //CODE HERE
+const addRemote = {
+    description: 'command to connect local repository to gitHub',
+    code: 'git remote add origin "url"'
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -82,3 +107,7 @@
 */
 
 //CODE HERE
+const push = {
+    description: 'command to send all new changes to repository to github',
+    code: 'git push'
+}

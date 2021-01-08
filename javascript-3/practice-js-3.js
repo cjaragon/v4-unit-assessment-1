@@ -2,11 +2,13 @@
 /* Create an array called 'groceries' that contains three grocery items of your choice as strings. */
 
 //CODE HERE
+let groceries = ['fruit', 'salad', 'jerky']
 
 //////////////////STEP 2////////////////////
 /* Create a variable called 'yourName' that is assigned the value of your name as a string. */
 
 //CODE HERE
+const yourName = 'Chris'
 
 //////////////////STEP 3////////////////////
 /*
@@ -17,6 +19,9 @@
 */
 
 //CODE HERE
+const setGroceryListTitle = (x) =>{
+    return `${x}'s Grocery List`
+}
 
 //////////////////STEP 4////////////////////
 /* 
@@ -27,6 +32,12 @@
 */
 
 //CODE HERE
+const addItem = (item) =>{
+    displayData()
+    return groceries.push(item)
+}
+
+
 
 //////////////////STEP 5////////////////////
 /*
@@ -38,10 +49,16 @@
 
 //CODE HERE
 
+const removeItem = (index) =>{
+    groceries.splice(index, 1)
+    displayData()
+    return groceries
+}
+
 //////////////////STEP 6////////////////////
 /*
-    Create a function called 'checkGroceryCount'. Inside of checkGroceryCount, 
-    you're going to check the total number of groceries in your groceries array using .length. 
+  *  Create a function called 'checkGroceryCount'. Inside of checkGroceryCount, 
+   * you're going to check the total number of groceries in your groceries array using .length. 
     Using an if/else statement, check if the number of groceries is greater than 5. 
     If it is, return the string 'That looks like a big trip' from the function. 
     If the number of groceries is equal to one, return the string '1 item'. 
@@ -50,6 +67,15 @@
 */
 
 //CODE HERE
+const checkGroceryCount = () =>{
+    if(groceries.length > 5){
+        return 'That looks like a big trip'
+    }else if(groceries.length === 1){
+        return '1 item'
+    }else if(groceries.length > 1 && groceries.length < 5) {
+        return `${groceries.length} items`
+    }
+}
 
 
 //////////////////Check out your code!////////////////////

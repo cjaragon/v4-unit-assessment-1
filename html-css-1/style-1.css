@@ -1,0 +1,54 @@
+body {
+    /* margin: 0;
+    padding: 0; */
+}
+
+header{
+    width: 100vw;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgb(251, 141, 141);
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+    padding: 20px 10px;
+}
+
+h1 {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+nav {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.html {
+    width: 100vw;
+    height: 30vh;
+    margin: 10px;
+    border: 5px dotted black;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#htmlLogo{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.css {
+    width: 100vw;
+    height: 45 vh;
+    margin:10px;
+    padding: 10px;
+    border: 5px dotted black;
+    box-sizing: border-box;
+}
+
+#cssLogo {
+    height: 100px;
+    width: 75px;
+    float: right;
+}
